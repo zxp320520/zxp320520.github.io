@@ -1,0 +1,62 @@
+@import "bacs.scss";
+#dowebok {
+    .section {
+        //  <!--第一页--> 个人介绍
+        &:nth-child(1) {
+            text-align: center;
+            #Profile {
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                }
+                h1 {
+                    font-size: 60px;
+                    font-weight: 700;
+                    color: #EEF3F0;
+                    text-shadow: 1px 2px #22c3aa, 2px 4px #aee2d9;
+                }
+                #subtitle {
+                    color: #8FE2D9;
+                    font-size: 24px;
+                    margin: 8px 0;
+                }
+                h4 {
+                    color: #FFF;
+                    font-size: 20px;
+                }
+                h5 {
+                    color: #aee2d9;
+                    font-size: 18px;
+                    margin: 6px 0;
+                }
+                #email {
+                    color: #008A75;
+                    font-size: 20px;
+                }
+            }
+        } //  <!--第二页-->
+        &:nth-child(2) {}
+        //  <!--第三页--> 技能
+        &:nth-child(3) {
+            text-align: center;
+            #skill {
+                h3 {
+                    font-size: 60px;
+                    font-weight: 700;
+                    color: #EEF3F0;
+                    text-shadow: 1px 2px #22c3aa, 2px 4px #aee2d9;
+                    margin: 20px;
+                }
+                ul {
+                    li {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #EEF3F0;
+                        margin: 4px 0;
+                    }
+                }
+            }
+        }
+    }
+}
